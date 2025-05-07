@@ -1,0 +1,93 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+}
+
+header {
+  background-color: #f7f7f7;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
+
+.category {
+  display: block;
+  background: #e0f0ff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  width: 250px;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: #003366;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.category:hover {
+  background: #d0eaff;
+}
+
+.topic-nav {
+  background-color: #f0f8ff;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+.topic-nav a {
+  color: #0077cc;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.topic-nav a:hover {
+  text-decoration: underline;
+}
+
+
+.worksheet-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.worksheet-item {
+  width: 200px;
+  text-align: center;
+}
+
+.worksheet-item img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.worksheet-item a {
+  display: block;
+  margin-top: 8px;
+  text-decoration: none;
+  color: #003366;
+  font-weight: bold;
+}
