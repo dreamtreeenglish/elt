@@ -1,0 +1,47 @@
+.page-header {
+  background: #005b8f; /* match homepage header */
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.page-header h1 {
+  font-size: 32px;
+  margin: 0;
+  color: white;
+}
+
+.page-subtitle {
+  font-size: 18px;
+  color: #e0f5ff;
+  margin-top: 10px;
+}
+
+/* Container for topic cards */
+.topics-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 30px;
+  background: #f5fbff; /* matches homepage category section */
+}
+
+/* Individual topic card */
+.topic-card {
+  background: #f0faff; /* consistent with homepage category cards */
+  border-radius: 20px;
+  padding: 40px;
+  width: 200px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  border: 2px solid #cdeeff;
+  transition: 0.3s;
+}
+
+.topic-card:hover {
+  background: #d9efff;
+  transform: translateY(-3px);
+}
