@@ -1,3 +1,7 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
 .page-header {
   background: #005b8f; /* match homepage header */
   color: white;
